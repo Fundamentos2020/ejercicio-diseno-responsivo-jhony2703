@@ -110,6 +110,7 @@ margin: 1em;
      background-image: url(https://picsum.photos/seed/picsum/420/250);
      height: 10em;
      align-items: flex-end;
+     background: cover;
 }
 .flex{
     display: flex;
