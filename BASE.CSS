@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+/*.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width:  50%;}
+.col-7{width: 58%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 93.66%;}
+.col-12{width:  100%;}*/
+
+@media(min-width:0px){
+    .col-s-1{width: 8.33%;}
+    .col-s-2{width: 16.66%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33.33%;}
+    .col-s-5{width: 41.66%;}
+    .col-s-6{width:  50%;}
+    .col-s-7{width: 58%;}
+    .col-s-8{width: 66.66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83.33%;}
+    .col-s-11{width: 93.66%;}
+    .col-s-12{width:  100%;}
+}
+
+@media(min-width:768px){
+    .col-m-1{width: 8.33%;}
+    .col-m-2{width: 16.66%;}
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33.33%;}
+    .col-m-5{width: 41.66%;}
+    .col-m-6{width:  50%;}
+    .col-m-7{width: 58%;}
+    .col-m-8{width: 66.66%;}
+    .col-m-9{width: 75%;}
+    .col-m-10{width: 83.33%;}
+    .col-m-11{width: 93.66%;}
+    .col-m-12{width:  100%;}
+}
+[class*="col-"]{
+    float: left;
+
+}
+
+
+
+.p-1{
+    padding: 1em;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*div{
+    border: 1px solid red;
+}*/
+
+.border{
+    border: 1px solid;
+}
+
+
+                                /*ejercicio classe pagina web de curiculum*/
+
+.border{
+    border: 1px solid black;
+}
+ .text-center{
+     text-align: center;
+ }
+
+ /*clase alto*/
+ .h-600{
+     height: 600px;
+ }
+
+ html{
+     background-color: #00000014
+     ;
+ }
+
+ .m-1{
+margin: 1em;    
+ }
+ .black-white{
+     background-color: white;
+ }
+ .p-1{
+     padding: 1em;
+ }
+
+ .teal{
+     background-color: teal;
+ }
+
+ .text-white{
+     color: white;
+ }
+
+ /*secion de foto*/
+ #foto{
+     background-image: url(https://picsum.photos/seed/picsum/420/250);
+     height: 10em;
+     align-items: flex-end;
+}
+.flex{
+    display: flex;
+}
+pb-1{
+    padding: 1em;
+}
+
+#foto div{
+    font-size: 1.5em;
+}
+
+.bb{
+ border-bottom: 1px solid black;
+}
+.mx{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.skill-box{
+background-color: lightgrey;
+border-radius: 10px;
+}
+.b-rad{
+    border-radius: 10px;
+}
+.pers-info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title{
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.2em;
+}
+
+.text-teal{
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.current{
+    color: white;
+    background-color: teal;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.py-1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.title-color{
+    color: #757575!important;
+    font-family:  "Roboto", sans-serif;
+}
